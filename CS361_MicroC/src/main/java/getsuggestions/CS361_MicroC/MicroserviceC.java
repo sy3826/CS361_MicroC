@@ -59,7 +59,7 @@ public class MicroserviceC extends JFrame {
 	 * Create the frame.
 	 */
 	public MicroserviceC() {
-		Log log = new Log(this);
+		log = new Log(this);
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 650, 700);
@@ -122,9 +122,6 @@ class GetSuggestions extends MicroserviceC {
 	String date;
 	String path;
 	Log log;
-	/**
-	 * 
-	 */
 	
 	@SuppressWarnings("unchecked")
 	public GetSuggestions(String portStr, Log log) {
